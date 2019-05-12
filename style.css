@@ -12,3 +12,8 @@ header {
     display: inline;
     list-style-type: none;
 }
+
+.about {
+    text-align: center;
+    color: #9B9B9B;
+}
