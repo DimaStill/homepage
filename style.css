@@ -23,10 +23,14 @@ main {
 .about {
     text-align: center;
     color: #9B9B9B;
+    box-shadow: 0 0 5px;
+    margin: 5px 0;
+    padding: 30px 20px;
 }
 
 .skills {
     background-color: #6D6D6D;
     color: #ffffff;
     width: 30%;
+    
 }
