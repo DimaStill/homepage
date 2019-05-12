@@ -39,3 +39,90 @@ main {
 .skills h2 {
     text-align: center;
 }
+
+.timeline {
+    padding: 20px 0;
+    position: relative;
+    left: 50%;
+    margin: 50px 0;
+}
+
+/*Line*/
+.timeline::before {
+    content: "";
+    position: absolute;
+    width: 5px;
+    height: 100%;
+    background-color: #dee2e6;
+    top: 0;
+  }
+
+.timeline-item:nth-child(2n) {
+    margin-bottom: 20px;
+    position: relative;
+    background-color: #118c4e;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    width: 45%;
+}
+
+.timeline-item:nth-child(2n+1) {
+    margin-bottom: 20px;
+    position: relative;
+    left: -55%;
+    background-color: #118c4e;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    width: 45%;
+}
+
+/*Point timeline*/
+.timeline-item:nth-child(2n)::before {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 10px;
+    background-color: #118c4e;
+    border-radius: 5px;
+    left: -40px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.timeline-item:nth-child(2n+1)::before {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 10px;
+    background-color: #118c4e;
+    border-radius: 5px;
+    right: -45px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+/*Triangle from point to item-timeline*/
+.timeline-item:nth-child(2n)::after {
+    content: "";	
+    position: absolute;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-right: 15px solid #118c4e;
+    left: -15px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.timeline-item:nth-child(2n+1)::after {
+    content: "";	
+    position: absolute;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-left: 15px solid #118c4e;
+    right: -15px;
+    top: 50%;
+    transform: translateY(-50%);
+}
