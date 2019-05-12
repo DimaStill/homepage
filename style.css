@@ -35,15 +35,22 @@ main {
     padding: 30px 20px;
 }
 
-.skills {
-    background-color: #6D6D6D;
-    color: #ffffff;
-    width: 40%;
-    padding: 10px;
-    line-height: 2;
+.extra-info {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
 }
 
-.skills h2 {
+.extra-block {
+    background-color: #6D6D6D;
+    color: #ffffff;
+    width: 30%;
+    padding: 10px;
+    line-height: 2;
+    border-radius: 15px;
+}
+
+.extra-info h2 {
     text-align: center;
 }
 
