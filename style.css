@@ -8,6 +8,11 @@ header {
     background-color: #505050;
     color: #ffffff;
     text-align: center;
+    width: 100%;
+}
+
+main {
+    width: 75%;
 }
 
 .contacts {
@@ -23,4 +28,5 @@ header {
 .skills {
     background-color: #6D6D6D;
     color: #ffffff;
+    width: 30%;
 }
