@@ -60,22 +60,24 @@ main {
 .timeline-item:nth-child(2n) {
     margin-bottom: 20px;
     position: relative;
-    background-color: #118c4e;
+    background-color: #00BBDD;
     color: #fff;
     padding: 10px;
     border-radius: 5px;
     width: 45%;
+    font-weight: bold;
 }
 
 .timeline-item:nth-child(2n+1) {
     margin-bottom: 20px;
     position: relative;
     left: -55%;
-    background-color: #118c4e;
+    background-color: #00BBDD;
     color: #fff;
     padding: 10px;
     border-radius: 5px;
     width: 45%;
+    font-weight: bold;
 }
 
 /*Point timeline*/
@@ -84,7 +86,7 @@ main {
     position: absolute;
     width: 50px;
     height: 10px;
-    background-color: #118c4e;
+    background-color: #00BBDD;
     border-radius: 5px;
     left: -40px;
     top: 50%;
@@ -96,7 +98,7 @@ main {
     position: absolute;
     width: 50px;
     height: 10px;
-    background-color: #118c4e;
+    background-color: #00BBDD;
     border-radius: 5px;
     right: -45px;
     top: 50%;
@@ -110,7 +112,7 @@ main {
     position: absolute;
     border-top: 15px solid transparent;
     border-bottom: 15px solid transparent;
-    border-right: 15px solid #118c4e;
+    border-right: 15px solid #00BBDD;
     left: -15px;
     top: 50%;
     transform: translateY(-50%);
@@ -121,7 +123,7 @@ main {
     position: absolute;
     border-top: 15px solid transparent;
     border-bottom: 15px solid transparent;
-    border-left: 15px solid #118c4e;
+    border-left: 15px solid #00BBDD;
     right: -15px;
     top: 50%;
     transform: translateY(-50%);
