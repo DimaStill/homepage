@@ -47,6 +47,11 @@ main {
     text-align: center;
 }
 
+.timeline-header {
+    text-align: center;
+    padding-top: 10px;
+}
+
 .timeline {
     padding: 20px 0;
     position: relative;
