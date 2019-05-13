@@ -165,4 +165,10 @@ main {
     margin: 0 auto;
     border: solid 5px #fff;
     box-shadow: 0 0 10px;
+    overflow: hidden;
+}
+
+.photo img {
+    position: relative;
+    width: 100%;
 }
