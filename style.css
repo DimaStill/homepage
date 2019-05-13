@@ -3,6 +3,7 @@ body {
     flex-direction: column;
     align-items: center;
     font-family: 'Roboto', sans-serif;
+    margin: 0;
 }
 
 header {
@@ -12,7 +13,7 @@ header {
     width: 100%;
     padding-top: 10px;
     padding-bottom: 50px;
-    border-radius: 10px;
+    border-radius: 0 0 10px 10px;
 }
 
 main {
@@ -32,8 +33,10 @@ main {
     text-align: center;
     color: #9B9B9B;
     box-shadow: 0 0 5px;
-    margin: 5px 0;
+    margin-bottom: 5px;
     padding: 30px 20px;
+    font-weight: bold;
+    position: relative;
 }
 
 .extra-info {
@@ -61,9 +64,7 @@ main {
 }
 
 .timeline {
-    padding: 20px 0;
     position: relative;
-    left: 50%;
     margin: 50px 0;
 }
 
@@ -75,6 +76,9 @@ main {
     height: 100%;
     background-color: #dee2e6;
     top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
   }
 
 .timeline-item:nth-child(2n) {
@@ -84,20 +88,21 @@ main {
     color: #fff;
     padding: 10px;
     border-radius: 5px;
-    width: 45%;
+    width: 44.5%;
     font-weight: bold;
+    margin-left: auto;
 }
 
 .timeline-item:nth-child(2n+1) {
     margin-bottom: 20px;
     position: relative;
-    left: -55%;
     background-color: #00BBDD;
     color: #fff;
     padding: 10px;
     border-radius: 5px;
-    width: 45%;
+    width: 43.8%;
     font-weight: bold;
+    left: -20px;
 }
 
 /*Point timeline*/
@@ -108,7 +113,7 @@ main {
     height: 10px;
     background-color: #00BBDD;
     border-radius: 5px;
-    left: -40px;
+    left: -12.5%;
     top: 50%;
     transform: translateY(-50%);
 }
@@ -120,7 +125,7 @@ main {
     height: 10px;
     background-color: #00BBDD;
     border-radius: 5px;
-    right: -45px;
+    right: -10%;
     top: 50%;
     transform: translateY(-50%);
 }
@@ -154,8 +159,17 @@ main {
     width: 150px;
     height: 150px;
     position: absolute;
-    top: 135px;
-    left: 44%;
+    top: -25%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0 auto;
     border: solid 5px #fff;
     box-shadow: 0 0 10px;
+    overflow: hidden;
+}
+
+.photo img {
+    position: relative;
+    width: 100%;
 }
