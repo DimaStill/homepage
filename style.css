@@ -113,7 +113,7 @@ main {
     height: 10px;
     background-color: #00BBDD;
     border-radius: 5px;
-    left: -55px;
+    left: -12.5%;
     top: 50%;
     transform: translateY(-50%);
 }
@@ -125,7 +125,7 @@ main {
     height: 10px;
     background-color: #00BBDD;
     border-radius: 5px;
-    right: -45px;
+    right: -10%;
     top: 50%;
     transform: translateY(-50%);
 }
