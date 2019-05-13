@@ -8,7 +8,7 @@ body {
 }
 
 header {
-    background-color: #505050;
+    background-color: #33313b;
     color: #ffffff;
     text-align: center;
     width: 100%;
@@ -32,7 +32,7 @@ main {
 
 .about {
     text-align: center;
-    color: #9B9B9B;
+    color: #6D6D6D;
     box-shadow: 0 0 5px;
     margin-bottom: 5px;
     padding: 30px 20px;
@@ -48,7 +48,7 @@ main {
 }
 
 .extra-block {
-    background-color: #6D6D6D;
+    background-color: #33313b;
     color: #ffffff;
     width: 30%;
     padding: 10px;
@@ -86,8 +86,8 @@ main {
 .timeline-item:nth-child(2n) {
     margin-bottom: 20px;
     position: relative;
-    background-color: #00BBDD;
-    color: #fff;
+    background-color: #4592af;
+    color: #f6f5f5;
     padding: 10px;
     border-radius: 5px;
     width: 44.5%;
@@ -98,8 +98,8 @@ main {
 .timeline-item:nth-child(2n+1) {
     margin-bottom: 20px;
     position: relative;
-    background-color: #00BBDD;
-    color: #fff;
+    background-color: #4592af;
+    color: #f6f5f5;
     padding: 10px;
     border-radius: 5px;
     width: 43.8%;
@@ -113,7 +113,7 @@ main {
     position: absolute;
     width: 50px;
     height: 10px;
-    background-color: #00BBDD;
+    background-color: #4592af;
     border-radius: 5px;
     left: -12.5%;
     top: 50%;
@@ -125,7 +125,7 @@ main {
     position: absolute;
     width: 50px;
     height: 10px;
-    background-color: #00BBDD;
+    background-color: #4592af;
     border-radius: 5px;
     right: -10%;
     top: 50%;
@@ -139,7 +139,7 @@ main {
     position: absolute;
     border-top: 15px solid transparent;
     border-bottom: 15px solid transparent;
-    border-right: 15px solid #00BBDD;
+    border-right: 15px solid #4592af;
     left: -15px;
     top: 50%;
     transform: translateY(-50%);
@@ -150,7 +150,7 @@ main {
     position: absolute;
     border-top: 15px solid transparent;
     border-bottom: 15px solid transparent;
-    border-left: 15px solid #00BBDD;
+    border-left: 15px solid #4592af;
     right: -15px;
     top: 50%;
     transform: translateY(-50%);
