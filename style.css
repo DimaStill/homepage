@@ -18,7 +18,7 @@ header {
 }
 
 main {
-    width: 75%;
+    width: 1000px;
 }
 
 .contacts {
@@ -68,6 +68,8 @@ h2 {
 .timeline {
     position: relative;
     margin: 50px 0;
+    display: flex;
+    justify-content: center;
 }
 
 /*Line*/
@@ -115,7 +117,7 @@ h2 {
     height: 10px;
     background-color: #4592af;
     border-radius: 5px;
-    left: -12.5%;
+    left: -12%;
     top: 50%;
     transform: translateY(-50%);
 }
